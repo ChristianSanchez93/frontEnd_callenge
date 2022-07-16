@@ -1,0 +1,22 @@
+@import "_base";
+
+.p-dialog{
+    @media #{$smartphone} {
+        width: 100vw!important;
+    }
+    @media #{$smartphoneLandscape} {
+        width: 100vw!important;
+    }
+    @media #{$tablets} {
+        width: 75vw!important;
+    }
+    @media #{$minidesktop} {
+        width: 75vw!important;
+    }
+    @media #{$desktop} {
+        width: 50vw!important;
+    }
+    @media #{$tv} {
+        width: 50vw!important;
+    }
+}
